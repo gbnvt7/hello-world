@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-echo "Hello world"
+read -p "Comment vous appelez-vous ? : " prenom
+echo "Enchanté, $prenom !"
